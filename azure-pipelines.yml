@@ -48,7 +48,7 @@ stages:
     displayName: Deploy
     pool:
       vmImage: 'ubuntu-20.04'
-    environment: 'Dev'
+    environment: 'dev'
     variables:
     - group: Release
     strategy:
